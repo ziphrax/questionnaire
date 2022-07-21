@@ -1,9 +1,9 @@
-import {ApplicationConfig, QuestionaireApplication} from './application';
+import {ApplicationConfig, QuestionnaireApplication} from './application';
 
 export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
-  const app = new QuestionaireApplication(options);
+  const app = new QuestionnaireApplication(options);
   await app.boot();
   await app.start();
 

@@ -40,8 +40,8 @@ export class Questionnaire extends Entity {
   }
 }
 
-export interface QuestionaireRelations {
+export interface QuestionnaireRelations {
   // describe navigational properties here
 }
 
-export type QuestionaireWithRelations = Questionnaire & QuestionaireRelations;
+export type QuestionnaireWithRelations = Questionnaire & QuestionnaireRelations;
